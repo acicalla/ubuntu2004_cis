@@ -815,22 +815,6 @@
       - patch
       - rule_1.5.3
 
-- name: "SCORED | 1.6.1 | PATCH | Ensure XD/NX support is enabled"
-  shell: |
-      set -o pipefail;
-      dmesg | grep -E "NX|XD" | grep " active"
-  args:
-      executable: /bin/bash
-  changed_when: false
-  when:
-      - ubuntu2004cis_rule_1_6_1
-      - not ubuntu2004cis_skip_for_travis
-  tags:
-      - level1
-      - scored
-      - patch
-      - rule_1.6.1
-
 - name: "SCORED | 1.6.2 | PATCH | Ensure address space layout randomization (ASLR) is enabled"
   sysctl:
       name: kernel.randomize_va_space

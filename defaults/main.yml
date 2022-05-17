@@ -190,7 +190,7 @@ ubuntu2004cis_rule_4_1_13: true
 ubuntu2004cis_rule_4_1_14: true
 ubuntu2004cis_rule_4_1_15: true
 ubuntu2004cis_rule_4_1_16: true
-ubuntu2004cis_rule_4_1_17: true
+ubuntu2004cis_rule_4_1_17: false
 ubuntu2004cis_rule_4_2_1_1: true
 ubuntu2004cis_rule_4_2_1_2: true
 ubuntu2004cis_rule_4_2_1_3: true
